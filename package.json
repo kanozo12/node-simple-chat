@@ -1,0 +1,16 @@
+{
+  "name": "gondr",
+  "version": "0.0.5",
+  "description": "my first node website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gondr",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "soket.io": "^1.0.0"
+  }
+}
