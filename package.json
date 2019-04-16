@@ -3,14 +3,19 @@
   "version": "0.0.5",
   "description": "my first node website",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanozo12/node-simple-chat"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "gondr",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "soket.io": "^1.0.0"
+    "socket.io": "^2.2.0"
   }
 }
